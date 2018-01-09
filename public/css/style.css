@@ -1,0 +1,416 @@
+@media only screen and (min-width: 768px) {
+  .hd-wrapper-navbar {
+    display: none; }
+  .hd-carousel-lg {
+    display: none; }
+  .hd-wrapper-carousel-lg-text {
+    display: none; }
+  .h-wrapper-navbar {
+    background-color: #162c3c;
+    margin-bottom: 50px; }
+  .h-nav {
+    width: 100%; }
+    .h-nav img {
+      width: 100%; }
+  .h-navbar-logo {
+    padding-right: 10px;
+    width: 57px; }
+    .h-navbar-logo img {
+      height: 50%; }
+  .h-nav-dropdown {
+    background-color: #162c3c;
+    border-radius: 0;
+    color: #2ba570;
+    line-height: 1.4;
+    height: 50px; }
+    .h-nav-dropdown:focus {
+      box-shadow: none; }
+  .h-nav-dropdown.focus, .h-nav-dropdown:focus, .h-nav-dropdown:hover {
+    color: #162c3c;
+    background-color: #2ba570; }
+  .h-nav-dropdown-menu {
+    background-color: #2ba570;
+    border-radius: 0;
+    font-size: 18px;
+    padding: 0;
+    left: -73px !important;
+    margin: -1px 0; }
+    .h-nav-dropdown-menu a {
+      padding-top: 24px; }
+  .h-nav-dropdown-item {
+    border-bottom: 1px solid #162c3c; }
+  .dropdown-item:focus, .dropdown-item:hover {
+    background-color: #162c3c;
+    color: #2ba570; }
+  .h-dropdown-social {
+    padding: 20px 1.25rem; }
+    .h-dropdown-social a span i:first-child {
+      color: #162c3c; }
+    .h-dropdown-social a span i:last-child {
+      color: #2ba570; }
+  .h-nav-contactid-card {
+    padding-left: 10%;
+    margin-left: 10%;
+    width: 30%; }
+  .h-nav-contact-envelope {
+    padding-left: 2%;
+    width: 31%; }
+  .h-nav-contact-circle {
+    width: 12%;
+    padding-left: 2%; }
+  .h-nav-contact {
+    padding-top: 1.6%; }
+    .h-nav-contact a {
+      color: #2ba570;
+      font-size: 16px;
+      padding-left: 15%; }
+      .h-nav-contact a i {
+        font-size: 22px; }
+  .desktop-navigation {
+    display: block; }
+  .desktop-carusel {
+    display: none; } }
+
+#ht-carousel-second {
+  display: none; }
+
+#ht-carousel-third {
+  display: none; }
+
+#ht-carousel-four {
+  display: none; }
+
+#ht-carousel-five {
+  display: none; }
+
+.h-wrapper-statement {
+  margin-bottom: 60px; }
+  .h-wrapper-statement img {
+    border-radius: 5px; }
+
+.ht-carosel {
+  padding-bottom: 50px; }
+
+.ht-ndicators li {
+  background-color: rgba(22, 44, 60, 0.2);
+  border-radius: 10px;
+  right: -65%;
+  height: 15px;
+  width: 15px; }
+
+.ht-ndicators .active {
+  background-color: #2ba570; }
+
+.ht-carosel-img {
+  box-shadow: 8px 13px 12px rgba(43, 165, 112, 0.3);
+  border-radius: 10px; }
+
+.ht-carosel-text {
+  padding-left: 25px; }
+  .ht-carosel-text h2 {
+    font-size: 24px; }
+  .ht-carosel-text h3 {
+    font-size: 18px; }
+  .ht-carosel-text li {
+    font-size: 14px; }
+    .ht-carosel-text li ol {
+      padding-top: 5%; }
+  .ht-carosel-text ol {
+    float: left;
+    list-style-type: square; }
+
+.ht-carosel-title-li {
+  padding-top: 3.5%; }
+
+.ht-help {
+  padding-bottom: 50px; }
+  .ht-help h2 {
+    font-size: 24px;
+    padding-bottom: 20px;
+    text-align: left;
+    width: 100%; }
+  .ht-help p {
+    font-size: 14px;
+    padding-bottom: 15px;
+    text-align: left;
+    width: 100%; }
+
+.h-wrapper-management {
+  background-image: url(./../img/center-sky.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative; }
+
+.h-wrapper-management-fone {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.75);
+  position: absolute;
+  z-index: 1; }
+
+.h-management {
+  float: left;
+  padding-top: 50px;
+  position: relative;
+  z-index: 2; }
+  .h-management h2 {
+    font-size: 24px;
+    padding-bottom: 20px;
+    text-align: left;
+    width: 100%; }
+  .h-management p {
+    font-size: 14px;
+    text-align: left;
+    width: 100%; }
+
+.h-management-foto-top, .h-management-foto-bottom {
+  float: left;
+  padding-top: 40px;
+  position: relative;
+  width: 100%;
+  z-index: 5; }
+  .h-management-foto-top a, .h-management-foto-bottom a {
+    color: #162c3c;
+    float: left;
+    text-decoration: none;
+    width: 25%;
+    cursor: pointer; }
+  .h-management-foto-top img, .h-management-foto-bottom img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    height: 70%;
+    width: 70%; }
+  .h-management-foto-top span, .h-management-foto-bottom span {
+    display: block;
+    font-size: 15px;
+    padding-top: 4%;
+    margin: 0 auto;
+    text-align: center; }
+
+.h-management-foto-bottom {
+  margin-left: 12.5%;
+  padding-bottom: 50px; }
+
+.knowledge {
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .knowledge h2 {
+    font-size: 24px;
+    padding-bottom: 40px;
+    text-align: left;
+    width: 100%; }
+  .knowledge a {
+    color: #162c3c;
+    float: left;
+    padding-top: 20px;
+    text-decoration: none;
+    width: 100%; }
+  .knowledge a span {
+    font-size: 15px;
+    border-bottom: 1px solid #162c3c; }
+
+.h-wrapper-publication {
+  background-image: url(./../img/center-sky.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative; }
+
+.h-wrapper-publication-fone {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.75);
+  position: absolute;
+  z-index: 1; }
+
+.publication {
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  z-index: 5; }
+  .publication h2 {
+    font-size: 24px;
+    padding-bottom: 40px;
+    text-align: left;
+    width: 100%; }
+  .publication p {
+    font-size: 14px;
+    padding-bottom: 40px;
+    text-align: left;
+    width: 100%; }
+  .publication h3 {
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 2%; }
+  .publication img {
+    width: 100%; }
+  .publication span {
+    font-size: 15px;
+    float: left;
+    padding-bottom: 20px; }
+  .publication button {
+    float: right; }
+
+.publication-img {
+  padding-top: 5%; }
+
+.publication-btn-read {
+  background-color: #162c3c;
+  border-radius: 0;
+  border-bottom-right-radius: 15px;
+  color: white;
+  font-size: 14px;
+  padding: 0rem .75rem;
+  height: 9%;
+  width: 50%; }
+  .publication-btn-read i {
+    padding-left: 20%; }
+
+.ht-footer-wraper {
+  background-color: #162c3c;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+  .ht-footer-wraper img {
+    padding-top: 10px;
+    width: 100%; }
+
+.ht-footer {
+  color: #fbfbfb; }
+  .ht-footer p {
+    font-size: 13px; }
+  .ht-footer p span:last-child {
+    float: left;
+    padding-top: 10px; }
+  .ht-footer p a {
+    border-bottom: 1px solid #fbfbfb;
+    color: #fbfbfb;
+    text-decoration: none; }
+
+.ht-fa-stack {
+  padding-top: 10px;
+  font-size: 16px; }
+  .ht-fa-stack i:last-child {
+    color: #162c3c; }
+
+.ht-footer-category {
+  font-size: 10px;
+  float: left;
+  padding-top: 5px;
+  text-decoration: none;
+  width: 50%; }
+  .ht-footer-category a {
+    float: left;
+    color: #fbfbfb;
+    padding-top: 10px;
+    text-decoration: none;
+    width: 100%; }
+  .ht-footer-category span {
+    border-bottom: 1px solid #fbfbfb; }
+
+.ht-footer-category-left {
+  padding-left: 7px; }
+
+@media only screen and (min-width: 1024px) {
+  .publication-img {
+    padding-top: 0; } }
+
+@media only screen and (min-width: 1200px) {
+  .hd-carousel-lg {
+    display: block; }
+  .hd-wrapper-carousel-lg-text {
+    display: block; }
+  .tablet-slider {
+    display: none; }
+  .desktop-carusel {
+    display: block; }
+  .ht-wrapper-help {
+    display: none; }
+  .hd-wrapper-navbar {
+    background-color: #162c3c;
+    display: block;
+    height: 50px; }
+  .hd-wrapper-carousel-lg-text {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+  #hd-carousel-text-first,
+  #hd-carousel-text-second,
+  #hd-carousel-text-third,
+  #hd-carousel-text-four,
+  #hd-carousel-text-five {
+    display: none; }
+    #hd-carousel-text-first h2,
+    #hd-carousel-text-second h2,
+    #hd-carousel-text-third h2,
+    #hd-carousel-text-four h2,
+    #hd-carousel-text-five h2 {
+      text-align: left;
+      font-size: 48px; }
+    #hd-carousel-text-first h3,
+    #hd-carousel-text-second h3,
+    #hd-carousel-text-third h3,
+    #hd-carousel-text-four h3,
+    #hd-carousel-text-five h3 {
+      text-align: left;
+      font-size: 30px;
+      padding-bottom: 10px; }
+  #hd-carousel-text-first {
+    display: block; }
+  .h-wrapper-carosel-text-left {
+    width: 100%;
+    background-color: green; }
+  .h-carosel-text-left {
+    float: left;
+    font-size: 24px;
+    text-align: left;
+    width: 45%; }
+    .h-carosel-text-left ol {
+      list-style-type: square; }
+  .h-carosel-text-right {
+    float: right;
+    font-size: 24px;
+    text-align: left;
+    width: 45%; }
+    .h-carosel-text-right ol {
+      float: left;
+      list-style-type: square; }
+  .h-carosel-text-left-li {
+    padding-top: 5%; }
+  .h-carosel-text-right-li {
+    padding-top: 5%; }
+  .h-management h2 {
+    font-size: 48px; }
+  .h-management p {
+    font-size: 24px; }
+  .h-management-foto-top span, .h-management-foto-bottom span {
+    font-size: 22px; }
+  .knowledge h2 {
+    font-size: 48px; }
+  .knowledge a span {
+    font-size: 22px; }
+  .publication h2 {
+    font-size: 48px; }
+  .publication p {
+    font-size: 24px; }
+  .publication h3 {
+    font-size: 24px; }
+  .publication span {
+    font-size: 24px; }
+  .publication-btn-read {
+    font-size: 22px; }
+  .ht-footer-wraper img {
+    width: 50%; }
+  .ht-footer-wraper img {
+    float: right;
+    width: 50%; }
+  .ht-footer-wraper {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+  .ht-footer p {
+    font-size: 15px; }
+  .ht-fa-stack {
+    padding-top: 20px;
+    font-size: 18px; }
+  .ht-footer-category {
+    font-size: 17px; } }
